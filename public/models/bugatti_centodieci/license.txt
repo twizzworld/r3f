@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bugatti Centodieci
+* source:	https://sketchfab.com/3d-models/bugatti-centodieci-30bafc99999b4ece885c875b925ed81b
+* author:	No Limits (https://sketchfab.com/nolimitsofficial)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bugatti Centodieci" (https://sketchfab.com/3d-models/bugatti-centodieci-30bafc99999b4ece885c875b925ed81b) by No Limits (https://sketchfab.com/nolimitsofficial) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bugatti Veyron
+* source:	https://sketchfab.com/3d-models/bugatti-veyron-2d6b0584741b414692b71601b09cccb9
+* author:	attix84work (https://sketchfab.com/attix84work)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bugatti Veyron" (https://sketchfab.com/3d-models/bugatti-veyron-2d6b0584741b414692b71601b09cccb9) by attix84work (https://sketchfab.com/attix84work) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
