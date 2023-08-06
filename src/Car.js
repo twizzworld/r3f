@@ -13,7 +13,7 @@ export function Car() {
   
   useEffect(() => {
     gltf.scene.scale.set(0.005, 0.005, 0.005);
-    gltf.scene.position.set(0, -0.035, 0);
+    gltf.scene.position.set(0, 0, 0);
     gltf.scene.traverse((object) => {
       if (object instanceof Mesh) {
         object.castShadow = true;
