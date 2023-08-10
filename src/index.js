@@ -1,6 +1,13 @@
-import React from 'react';
-import App from './App';
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client"
+import { Suspense } from "react"
+import App from "./App.js"
+import { Overlay } from "./DirtyFigmaExport"
+import "./style.css"
+import "./tailwind.css"
 
-const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+createRoot(document.getElementById("root")).render(
+  <>
+      <App />
+    <Overlay />
+  </>,
+)

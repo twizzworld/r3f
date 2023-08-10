@@ -1,6 +1,144 @@
-html, body, #root, canvas {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap");
+
+@font-face {
+    font-family: Anurati;
+    src: url("./Anurati-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BoteraStencil;
+    src: url("./Botera-RegularStencil.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Potra;
+    src: url("./Potra.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, #e6eaf5 0%, #f6f6f6 80%);
+}
+
+body {
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: "Inter var", sans-serif;
+
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  padding-right: 10px;
+  cursor: pointer;
+  pointer-events: all;
+  color: white;
+  text-decoration: none; /* no underline */
+}
+
+@media screen and (max-width: 568px) {
+  .full {
+    visibility: hidden;
+    display: none;
+  }
+
+  footer {
+    padding-left: 2px;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+.scontent{
+    font-size: 10px;
+}
+
+}
+
+li:hover{
+    cursor: pointer;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+  }
+  
+  footer li {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  
+
+.aboutPopup {
+    background-color: black;
+    opacity: .85;
+    
+}
+
+.hheader{
+    font-size: 10vw;
+    font-family: "Anurati";
+}
+
+.ccontent {
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+    font-size: 28px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.lcontent {
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+    font-size: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.scontent {
+    font-family: 'Helvetica Neue';
+    font-weight: 100;
+    font-size: 14px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.backButton {
+    font-size: 20px;
+}
+
+.background {
+    text-align: center;
+    font-family: "Inter var", sans-serif;
+}
+
+/* visibility: hidden; */
+
+.popups {
+    visibility: show;
 }
