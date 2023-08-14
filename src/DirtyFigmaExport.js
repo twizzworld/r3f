@@ -441,7 +441,6 @@ export function Overlay() {
                 <div>python proof-of-work blockchain | javascript proof-of-work blockchain | go proof-of-stake blockchain</div>
                 <div>custom llm models | llm model playground</div>
                 <div>decentralized exchanges (uniswap and sushiswap forks) | smart contract wallet | chrome extension wallet | mobile wallet</div>
-                <div>in-browser minecraft | in-browser racing game</div>
                 <div>unreal engine (ue) racing game | ue fps game | ue battle royale game</div>
                 <div>ai audio dubber | documents chatbot</div>
                 <div>web3 clones of: tiktok, ebay, youtube, insta, whatsapp, uber, and ubereats</div>
@@ -460,7 +459,7 @@ export function Overlay() {
                 <div>ai generated vr experiences from prompts</div>
                 <div>ar pokemon go type app but web3 + nfts</div>
                 <br></br>
-                <div><a>link to more projects</a></div>
+                <div><a href="https://projectgallery.vercel.app/">link to project gallery</a></div>
             </div>
             <div class="backButton" onClick={closeHandler5} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
             </div>
@@ -498,9 +497,7 @@ export function Overlay() {
                 }}>
             <div class="hheader">FUN</div>
             <div class="ccontent">
-                    <div><a>simple in-browser minecraft game</a></div>
-                    <br></br>
-                    <div><a>in-browser racing game</a></div>
+                    <div><a href='https://minecraft-simple.vercel.app/'>simple in-browser minecraft game</a></div>
                 </div>
             <div class="backButton" onClick={closeHandler6} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
             </div>
@@ -577,7 +574,7 @@ export function Overlay() {
                     flexDirection: "column",
                 }}>
             <div class="hheader">MORE</div>
-            <div class="ccontent"><a>project gallery</a></div>
+            <div class="ccontent"><a href="https://projectgallery.vercel.app/">project gallery</a></div>
             <div class="backButton" onClick={closeHandler8} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
             </div>
         </div>
