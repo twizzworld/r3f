@@ -117,7 +117,7 @@ export function Overlay() {
         <div style={{ height: 60 }} />
         <div style={{ width: "100%", padding: 0, display: "inline-flex", flexDirection: "row", alignItems: "flex-start", justifyContent: "center" }}>
           <p style={{ flex: "1 1 0%", height: "100%", fontSize: 12, lineHeight: "1.5em", color: "white" }}>
-            <b>Engineering & Physics (+ Econ + CS lmao)</b>
+            <b>Engineering + CS</b>
             <br />
             Harvard University
             <br />
@@ -221,7 +221,7 @@ export function Overlay() {
                     flexDirection: "column",
                 }}>
             <div class="hheader">ABOUT</div>
-            <div class="ccontent">Hello there! Welcome to my website. I'm Joshua Okolo, and I'm currently a freshman studying at Harvard University planning to major in mechanical engineering, bioengineering, and/or applied physics. However, I am an enthusiast in a lot more areas, inclucing economics and CS (more under interests). </div>
+            <div class="ccontent">Hello there! Welcome to my website. I'm Joshua Okolo, and I'm currently a freshman studying at Harvard University planning to major in mechanical engineering and/or computer science. However, I am an enthusiast in a lot more areas, inclucing economics and biomedical engineering (more under interests). </div>
             <div class="backButton" onClick={closeHandler} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
             </div>
         </div>
@@ -277,7 +277,7 @@ export function Overlay() {
                 <br></br>
                 <div>buildspace s4 | <a href='https://buildspace.so/'>iykyk</a></div>
                 <div></div>
-                <div>I've also gotten a few awards, some of my most notable ones being the Congressional Gold Medal and Congressional STEM Star. full list on <a href='https://www.linkedin.com/in/joshua-okolo/'>linkedin</a> </div>
+                <div>I've also gotten a few awards, some of my most notable ones being the Congressional Gold Medal and Congressional STEM Star. </div>
                 <br></br>
             </div>
             <div class="backButton" onClick={closeHandler2} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
@@ -316,24 +316,18 @@ export function Overlay() {
                 }}>
             <div class="hheader">SKI LLS</div>
             <div class="lcontent" style={{display: "flex"}}>
-                <div>ai/ml, both with pytorch and tensorflow, as well as llms and generative ai</div>
+                <div>ai/ml, pytorch, tensorflow, langchain, </div>
                 <br></br>
-                <div>data science & analytics, pandas, numpy, matplotlib, opencv</div>
+                <div>data science & analytics with python</div>
                 <br></br>
-                <div>web3: blockchain programming, solidity, rust, familiar with NEAR and Solana development, currently working with SKALE and Lisk</div>
+                <div>web3: blockchain programming, solidity, rust</div>
                 <br></br>
-                <div>offensive and defensive cyberecurity (getting my certifications soon!)</div>
+                <div>python, c, c++, javascript</div>
                 <br></br>
-                <div>languages: python, c, c++, c#, rust, javascript, jocose (a programming language I made)</div>
+                <div>unreal engine for game development, blender</div>
                 <br></br>
-                <div>unreal engine for game development, blender, ar/vr development with openxr</div>
+                <div>fusion360, SolidWorks, MATLAB</div>
                 <br></br>
-                <div>CAD (freeCAD, fusion 360), autoCAD, MATLAB, gnu octave</div>
-                <br></br>
-                <div>node.js, react, next.js, tailwind css</div>
-                <br></br>
-                <div>flask, django, docker/kubernetes, git, assembly, terraform, relational databases, non-relational databases, graph databases </div>
-                <div></div>
             </div>
             <div class="backButton" onClick={closeHandler3} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
             </div>
@@ -387,18 +381,6 @@ export function Overlay() {
                 <br></br>
                 <div>robotics</div>
                 <br></br>
-                <div>energy</div>
-                <br></br>
-                <div>biomedical engineering</div>
-                <br></br>
-                <div>vehicles</div>
-                <br></br>
-                <div>art</div>
-                <br></br>
-                <div>quantitative finance/trading bots</div>
-                <br></br>
-                <div>conventional and alternative investing</div>
-                <br></br>
             </div>
             <div class="backButton" onClick={closeHandler4} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
             </div>
@@ -440,26 +422,14 @@ export function Overlay() {
                 <div>programming language (jocose)</div>
                 <div>python proof-of-work blockchain | javascript proof-of-work blockchain | go proof-of-stake blockchain</div>
                 <div>custom llm models | llm model playground</div>
-                <div>decentralized exchanges (uniswap and sushiswap forks) | smart contract wallet | chrome extension wallet | mobile wallet</div>
+                <div>decentralized exchanges (uniswap and sushiswap forks) | smart contract wallet</div>
                 <div>unreal engine (ue) racing game | ue fps game | ue battle royale game</div>
                 <div>ai audio dubber | documents chatbot</div>
-                <div>web3 clones of: tiktok, ebay, youtube, insta, whatsapp, uber, and ubereats</div>
-                <div>ai bookmark contexter | witty minecraft narrator ai mod | ai brainstorming assistant</div>
                 <br></br>
                 <div>currently working on:</div>
-                <div>blockchain Apps with SKALE and Lisk: LEVLEX (LVLX) group of blockchain apps providing digital identity, defi, nft, web3 gaming, decentralized video streaming, decentralized compute, decentralized storage, dao, blockchain analytics, casino, oracle, betting, and decentralized ai services</div>
-                <div>AI Projects: working on a few ai projects inluding cybersecurity, media generation, ai-automated mlops, automated cloud infrastructure, generative cad, ai-managed portfolios, medical image segmentation, and trading bots.</div>
-                <div>nft generation and marketplace on solana</div>
+                <div>blockchain Apps: decentralized compute, storage, and finance networks</div>
+                <div>games and experiences using unreal engine and generative ai</div>
                 <br></br>
-                <div>games and experiences using unreal engine and generative ai:</div>
-                <div>frost.ai: ai generated stories from prompts</div>
-                <div>an adaptive strategy game where players must build a civilization and survive against ai-generated enemies. the game would be constantly changing as the ai learns from the player's actions, making it a truly unique experience each time it is played.</div>
-                <div>world explorer fps game with ai generation: a procedurally generated action-adventure game where players explore a vast, ever-changing world. the game would be filled with hidden treasures, dangerous enemies, and challenging puzzles.</div>
-                <div>ai visual novel. a role-playing game where players create their own character and interact with a cast of ai-generated characters. the characters would learn and grow as the player interacts with them, making the game more immersive and personal.</div>
-                <div>ai generated vr experiences from prompts</div>
-                <div>ar pokemon go type app but web3 + nfts</div>
-                <br></br>
-                <div><a href="https://projectgallery.vercel.app/">link to project gallery</a></div>
             </div>
             <div class="backButton" onClick={closeHandler5} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
             </div>
@@ -546,41 +516,7 @@ export function Overlay() {
             </div>
         }
 
-        {/*more popup*/}
-      { show8 &&
         
-        <div>
-            
-        <div
-        class="popups"
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          padding: 40,
-          pointerEvents: show8 ? "auto" : "none",
-          color: "white",
-        }}>
-            <div class="popups aboutPopup background"
-                style={{
-                    width: "90vw",
-                    height: "90vh",
-                    borderRadius: "3px",
-                    padding: "10px",
-                    display: "flex",
-                    justifyContent: "space-evenly",
-                    flexDirection: "column",
-                }}>
-            <div class="hheader">MORE</div>
-            <div class="ccontent"><a href="https://projectgallery.vercel.app/">project gallery</a></div>
-            <div class="backButton" onClick={closeHandler8} style={{opacity:"1", cursor:"pointer"}}>BACK</div>
-            </div>
-        </div>
-            
-            </div>
-        }
       </>
     )
   }
